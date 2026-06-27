@@ -1,0 +1,35 @@
+OD Estimation Metrics
+=====================
+OD MAE: 2.748670035526513
+OD RMSE: 4.319726110328656
+Relative Total Error: 0.019581638749041137
+Link Count MAE: 1.1296044510533645e-06
+Link Count RMSE: 4.027381561057128e-06
+
+VRP Results
+===========
+Vehicle capacity: 40
+Estimated OD VRP cost before 2-opt: 273.0
+Estimated OD VRP cost after 2-opt: 273.0
+True OD VRP cost before 2-opt: 364.0
+True OD VRP cost after 2-opt: 364.0
+Cost difference after 2-opt: 91.0
+Estimated VRP valid: True
+True VRP valid: True
+
+Estimated Routes after 2-opt
+============================
+[0, 1, 0], load=40.0
+[0, 1, 6, 7, 0], load=40.0
+[0, 2, 0], load=40.0
+[0, 2, 3, 4, 5, 0], load=40.0
+[0, 7, 5, 0], load=35.17
+
+True Routes after 2-opt
+=======================
+[0, 1, 0], load=40.0
+[0, 1, 6, 7, 0], load=40.0
+[0, 2, 0], load=40.0
+[0, 7, 5, 0], load=40.0
+[0, 5, 4, 0], load=40.0
+[0, 3, 0], load=8.0
